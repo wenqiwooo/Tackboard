@@ -13,6 +13,36 @@
 		2AB233031A737BBC004AF055 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB233021A737BBC004AF055 /* Images.xcassets */; };
 		2AB233061A737BBC004AF055 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB233041A737BBC004AF055 /* LaunchScreen.xib */; };
 		2AB233121A737BBC004AF055 /* TackboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB233111A737BBC004AF055 /* TackboardTests.swift */; };
+		2AB2331C1A737BEC004AF055 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB2331B1A737BEC004AF055 /* AudioToolbox.framework */; };
+		2AB2331E1A737BF3004AF055 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB2331D1A737BF3004AF055 /* CFNetwork.framework */; };
+		2AB233201A737BFA004AF055 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB2331F1A737BFA004AF055 /* CoreGraphics.framework */; };
+		2AB233221A737BFF004AF055 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB233211A737BFF004AF055 /* CoreLocation.framework */; };
+		2AB233241A737C07004AF055 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB233231A737C07004AF055 /* MobileCoreServices.framework */; };
+		2AB233261A737C0D004AF055 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB233251A737C0D004AF055 /* QuartzCore.framework */; };
+		2AB233281A737C13004AF055 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB233271A737C13004AF055 /* Security.framework */; };
+		2AB2332A1A737C19004AF055 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB233291A737C19004AF055 /* StoreKit.framework */; };
+		2AB2332C1A737C20004AF055 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB2332B1A737C20004AF055 /* SystemConfiguration.framework */; };
+		2AB2332E1A737C27004AF055 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB2332D1A737C27004AF055 /* libz.dylib */; };
+		2AB233301A737C2E004AF055 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB2332F1A737C2E004AF055 /* libsqlite3.dylib */; };
+		2AB233321A737CBB004AF055 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB233311A737CBB004AF055 /* ParseFacebookUtils.framework */; };
+		2AB233341A737CC8004AF055 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB233331A737CC8004AF055 /* Parse.framework */; };
+		2AB233361A737CD6004AF055 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB233351A737CD6004AF055 /* Bolts.framework */; };
+		2AB233381A737CF8004AF055 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AB233371A737CF8004AF055 /* FacebookSDK.framework */; };
+		2AB2333A1A737D64004AF055 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB233391A737D64004AF055 /* InitialViewController.swift */; };
+		2AB233401A7387F1004AF055 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB2333F1A7387F1004AF055 /* MainTableViewController.swift */; };
+		2AB233421A7399B5004AF055 /* GiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB233411A7399B5004AF055 /* GiveViewController.swift */; };
+		2AB233441A7399C8004AF055 /* ReceiveTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB233431A7399C8004AF055 /* ReceiveTableViewController.swift */; };
+		2AB233461A73A1A7004AF055 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB233451A73A1A7004AF055 /* Functions.swift */; };
+		2AB233481A73AF39004AF055 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB233471A73AF39004AF055 /* Entry.swift */; };
+		2AB2334C1A7403D5004AF055 /* heart64.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB2334B1A7403D5004AF055 /* heart64.png */; };
+		2AB233501A74098A004AF055 /* favorite21.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB2334F1A74098A004AF055 /* favorite21.png */; };
+		2AB233521A741271004AF055 /* UpdatesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB233511A741271004AF055 /* UpdatesViewController.swift */; };
+		2AB233541A742326004AF055 /* circle108.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB233531A742326004AF055 /* circle108.png */; };
+		2AB233561A74232E004AF055 /* round68.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB233551A74232E004AF055 /* round68.png */; };
+		2AB2335C1A742C01004AF055 /* box41.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB2335B1A742C01004AF055 /* box41.png */; };
+		2AB2335E1A742C07004AF055 /* gift41.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB2335D1A742C07004AF055 /* gift41.png */; };
+		2AB233601A742C9F004AF055 /* cloud127.png in Resources */ = {isa = PBXBuildFile; fileRef = 2AB2335F1A742C9F004AF055 /* cloud127.png */; };
+		2AB233621A74A501004AF055 /* city.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2AB233611A74A501004AF055 /* city.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +66,37 @@
 		2AB2330B1A737BBC004AF055 /* TackboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TackboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB233101A737BBC004AF055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AB233111A737BBC004AF055 /* TackboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TackboardTests.swift; sourceTree = "<group>"; };
+		2AB2331B1A737BEC004AF055 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		2AB2331D1A737BF3004AF055 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		2AB2331F1A737BFA004AF055 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2AB233211A737BFF004AF055 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2AB233231A737C07004AF055 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2AB233251A737C0D004AF055 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2AB233271A737C13004AF055 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		2AB233291A737C19004AF055 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		2AB2332B1A737C20004AF055 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2AB2332D1A737C27004AF055 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2AB2332F1A737C2E004AF055 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		2AB233311A737CBB004AF055 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		2AB233331A737CC8004AF055 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		2AB233351A737CD6004AF055 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2AB233371A737CF8004AF055 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		2AB233391A737D64004AF055 /* InitialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		2AB2333C1A737FDD004AF055 /* Tackboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tackboard-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		2AB2333F1A7387F1004AF055 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		2AB233411A7399B5004AF055 /* GiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiveViewController.swift; sourceTree = "<group>"; };
+		2AB233431A7399C8004AF055 /* ReceiveTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiveTableViewController.swift; sourceTree = "<group>"; };
+		2AB233451A73A1A7004AF055 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		2AB233471A73AF39004AF055 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		2AB2334B1A7403D5004AF055 /* heart64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart64.png; sourceTree = "<group>"; };
+		2AB2334F1A74098A004AF055 /* favorite21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = favorite21.png; sourceTree = "<group>"; };
+		2AB233511A741271004AF055 /* UpdatesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatesViewController.swift; sourceTree = "<group>"; };
+		2AB233531A742326004AF055 /* circle108.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle108.png; sourceTree = "<group>"; };
+		2AB233551A74232E004AF055 /* round68.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = round68.png; sourceTree = "<group>"; };
+		2AB2335B1A742C01004AF055 /* box41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = box41.png; sourceTree = "<group>"; };
+		2AB2335D1A742C07004AF055 /* gift41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gift41.png; sourceTree = "<group>"; };
+		2AB2335F1A742C9F004AF055 /* cloud127.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud127.png; sourceTree = "<group>"; };
+		2AB233611A74A501004AF055 /* city.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = city.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +104,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB233301A737C2E004AF055 /* libsqlite3.dylib in Frameworks */,
+				2AB2332E1A737C27004AF055 /* libz.dylib in Frameworks */,
+				2AB233321A737CBB004AF055 /* ParseFacebookUtils.framework in Frameworks */,
+				2AB2332C1A737C20004AF055 /* SystemConfiguration.framework in Frameworks */,
+				2AB2332A1A737C19004AF055 /* StoreKit.framework in Frameworks */,
+				2AB233281A737C13004AF055 /* Security.framework in Frameworks */,
+				2AB233341A737CC8004AF055 /* Parse.framework in Frameworks */,
+				2AB233261A737C0D004AF055 /* QuartzCore.framework in Frameworks */,
+				2AB233241A737C07004AF055 /* MobileCoreServices.framework in Frameworks */,
+				2AB233221A737BFF004AF055 /* CoreLocation.framework in Frameworks */,
+				2AB233201A737BFA004AF055 /* CoreGraphics.framework in Frameworks */,
+				2AB233381A737CF8004AF055 /* FacebookSDK.framework in Frameworks */,
+				2AB2331E1A737BF3004AF055 /* CFNetwork.framework in Frameworks */,
+				2AB2331C1A737BEC004AF055 /* AudioToolbox.framework in Frameworks */,
+				2AB233361A737CD6004AF055 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +135,17 @@
 		2AB232ED1A737BBC004AF055 = {
 			isa = PBXGroup;
 			children = (
+				2AB2332F1A737C2E004AF055 /* libsqlite3.dylib */,
+				2AB2332D1A737C27004AF055 /* libz.dylib */,
+				2AB2332B1A737C20004AF055 /* SystemConfiguration.framework */,
+				2AB233291A737C19004AF055 /* StoreKit.framework */,
+				2AB233271A737C13004AF055 /* Security.framework */,
+				2AB233251A737C0D004AF055 /* QuartzCore.framework */,
+				2AB233231A737C07004AF055 /* MobileCoreServices.framework */,
+				2AB233211A737BFF004AF055 /* CoreLocation.framework */,
+				2AB2331F1A737BFA004AF055 /* CoreGraphics.framework */,
+				2AB2331D1A737BF3004AF055 /* CFNetwork.framework */,
+				2AB2331B1A737BEC004AF055 /* AudioToolbox.framework */,
 				2AB232F81A737BBC004AF055 /* Tackboard */,
 				2AB2330E1A737BBC004AF055 /* TackboardTests */,
 				2AB232F71A737BBC004AF055 /* Products */,
@@ -77,11 +164,31 @@
 		2AB232F81A737BBC004AF055 /* Tackboard */ = {
 			isa = PBXGroup;
 			children = (
+				2AB233551A74232E004AF055 /* round68.png */,
+				2AB233611A74A501004AF055 /* city.jpg */,
+				2AB2335F1A742C9F004AF055 /* cloud127.png */,
+				2AB2335B1A742C01004AF055 /* box41.png */,
+				2AB2335D1A742C07004AF055 /* gift41.png */,
+				2AB233531A742326004AF055 /* circle108.png */,
+				2AB2334F1A74098A004AF055 /* favorite21.png */,
+				2AB2334B1A7403D5004AF055 /* heart64.png */,
+				2AB233371A737CF8004AF055 /* FacebookSDK.framework */,
+				2AB233351A737CD6004AF055 /* Bolts.framework */,
+				2AB233331A737CC8004AF055 /* Parse.framework */,
+				2AB233311A737CBB004AF055 /* ParseFacebookUtils.framework */,
 				2AB232FB1A737BBC004AF055 /* AppDelegate.swift */,
+				2AB233471A73AF39004AF055 /* Entry.swift */,
+				2AB233451A73A1A7004AF055 /* Functions.swift */,
+				2AB233391A737D64004AF055 /* InitialViewController.swift */,
+				2AB2333F1A7387F1004AF055 /* MainTableViewController.swift */,
+				2AB233411A7399B5004AF055 /* GiveViewController.swift */,
+				2AB233431A7399C8004AF055 /* ReceiveTableViewController.swift */,
+				2AB233511A741271004AF055 /* UpdatesViewController.swift */,
 				2AB232FD1A737BBC004AF055 /* ViewController.swift */,
-				2AB232FF1A737BBC004AF055 /* Main.storyboard */,
 				2AB233021A737BBC004AF055 /* Images.xcassets */,
 				2AB233041A737BBC004AF055 /* LaunchScreen.xib */,
+				2AB232FF1A737BBC004AF055 /* Main.storyboard */,
+				2AB2333C1A737FDD004AF055 /* Tackboard-Bridging-Header.h */,
 				2AB232F91A737BBC004AF055 /* Supporting Files */,
 			);
 			path = Tackboard;
@@ -192,8 +299,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB2335C1A742C01004AF055 /* box41.png in Resources */,
+				2AB233501A74098A004AF055 /* favorite21.png in Resources */,
+				2AB233541A742326004AF055 /* circle108.png in Resources */,
+				2AB2334C1A7403D5004AF055 /* heart64.png in Resources */,
+				2AB233601A742C9F004AF055 /* cloud127.png in Resources */,
+				2AB233561A74232E004AF055 /* round68.png in Resources */,
 				2AB233011A737BBC004AF055 /* Main.storyboard in Resources */,
 				2AB233061A737BBC004AF055 /* LaunchScreen.xib in Resources */,
+				2AB2335E1A742C07004AF055 /* gift41.png in Resources */,
+				2AB233621A74A501004AF055 /* city.jpg in Resources */,
 				2AB233031A737BBC004AF055 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,7 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB233481A73AF39004AF055 /* Entry.swift in Sources */,
+				2AB233421A7399B5004AF055 /* GiveViewController.swift in Sources */,
+				2AB233401A7387F1004AF055 /* MainTableViewController.swift in Sources */,
+				2AB2333A1A737D64004AF055 /* InitialViewController.swift in Sources */,
+				2AB233461A73A1A7004AF055 /* Functions.swift in Sources */,
 				2AB232FE1A737BBC004AF055 /* ViewController.swift in Sources */,
+				2AB233521A741271004AF055 /* UpdatesViewController.swift in Sources */,
+				2AB233441A7399C8004AF055 /* ReceiveTableViewController.swift in Sources */,
 				2AB232FC1A737BBC004AF055 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,9 +458,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wu Wenqi (5L8T8NC5J3)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tackboard",
+				);
 				INFOPLIST_FILE = Tackboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tackboard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +476,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Wu Wenqi (5L8T8NC5J3)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Tackboard",
+				);
 				INFOPLIST_FILE = Tackboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tackboard-Bridging-Header.h";
 			};
 			name = Release;
 		};

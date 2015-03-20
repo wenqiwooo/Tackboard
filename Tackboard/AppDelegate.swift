@@ -16,6 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Parse.setApplicationId("2W6JEU5fQRzI5wqGEwf6BtHpq5ftfJT3tNH5bNBm", clientKey: "LvmbPmvCiRzhnYgWupCx20P9zENOYOdc8wFgTG1B")
+        
+        PFFacebookUtils.initializeFacebook()
+        
         return true
     }
 
@@ -39,8 +44,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+        PFFacebookUtils.session().close()
     }
 
+    func application(application: UIApplication,
+        openURL url: NSURL,
+        sourceApplication: String,
+        annotation: AnyObject?) -> Bool {
+            return FBAppCall.handleOpenURL(url, sourceApplication:sourceApplication, withSession: PFFacebookUtils.session())
+    }
 
 }
 
